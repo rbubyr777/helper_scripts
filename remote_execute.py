@@ -48,7 +48,7 @@ run_cmd("git config --global user.name 'your_git_user'\n", ":~#")
 run_cmd("git config --global user.email 'your_git_email@example.com'\n", ":~#")
 
 # Clone repo
-run_cmd('git clone ' + REPO_URL + '\n', ":~#")
+channel.send('git clone ' + REPO_URL + '\n')
 
 time.sleep(3)
 
